@@ -1,0 +1,8 @@
+.intro-overlay {
+  background: linear-gradient(to right,rgb(41, 45, 49) , rgb(93, 118, 150));
+  position: fixed;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  z-index: 3;
+}
