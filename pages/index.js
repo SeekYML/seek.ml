@@ -5,6 +5,8 @@ import IntroOverlay from "../components/introOverlay";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Parallax from 'parallax-js';
+import Tilt from 'react-tilt'
+import 'react-smooth-cursor/dist/index.css'
 import {
   faDiscord,
   faGithub,
@@ -192,6 +194,7 @@ export default function Home() {
 
     homeAnimation(completeAnimation);
   }, []);
+  
   return (
   <div>
     <div className="container" ref={scrollRef}>
@@ -271,7 +274,7 @@ export default function Home() {
           <div data-depth="1.2"><img src="/images/Seek6.png"alt="Seek"className="peep-image"/></div>
           <div data-depth="1.1"><img src="/images/Seek9.png"alt="Seek"className="peep-image"/></div>
           <div data-depth="0.2"><img src="/images/Seek11.png"alt="Seek"className="peep-image"/></div>
-          <div data-depth="0.6"><img src="/images/Seek.png"alt="Seek"className="peep-image"/></div>
+          <div data-depth="0.6"><div className="floating"><img src="/images/Seek.png"alt="Seek"className="peep-image"/></div></div>
           </div>
           </div>
 
@@ -291,7 +294,9 @@ export default function Home() {
             {projectsList.map(
               ({ name, description, image, link, page, tools, index }) => (
                 <div className="project" key={index}>
-                  <img src={image} alt={name} />
+                  <Tilt className="Tilt" options={{ max : 10}}>
+                  <img className= "shadowed "src={image} alt={name}/>
+                  </Tilt>
                   <div className="project-info">
                     <h3>{name}</h3>
                     {description.split("\n").map((str) => (

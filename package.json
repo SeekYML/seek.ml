@@ -30,7 +30,10 @@
     "react-preloaders": "^3.0.3",
     "react-preloading-screen": "^1.0.2",
     "react-scroll": "^1.8.1",
+    "react-smooth-cursor": "^1.1.0",
+    "react-tilt": "^0.1.4",
     "sass": "^1.29.0",
+    "smooth-scrollbar": "^8.6.0",
     "three": "^0.125.2"
   },
   "devDependencies": {
