@@ -32,5 +32,8 @@
     "react-scroll": "^1.8.1",
     "sass": "^1.29.0",
     "three": "^0.125.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^2.0.0"
   }
 }
