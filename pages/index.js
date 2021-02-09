@@ -203,20 +203,20 @@ export default function Home() {
           content="SeekYML's Portfolio. Literally the CEO of Java..."
         ></meta>
         <title>Seek / Java Programmer / Designer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://raw.githubusercontent.com/SeekYML/Assets/main/websiteassets/favicon.ico" />
 
 <title>Seek / Java Developer / Designer</title>
 <meta name="title" content="Seek / Java Developer / Designer"></meta>
 <meta name="description" content="Portfolio / Resources"></meta>
 
 <meta name="twitter:card" content="summary" key="twcard" />
-<meta name="twitter:creator" content={twitterHandle} key="twhandle" />
+<meta name="twitter:creator" content="yo" key="twhandle" />
 
-<meta property="og:url" content={currentURL} key="ogurl" />
-<meta property="og:image" content={previewImage} key="ogimage" />
-<meta property="og:site_name" content={siteName} key="ogsitename" />
-<meta property="og:title" content={pageTitle} key="ogtitle" />
-<meta property="og:description" content={description} key="ogdesc" />
+<meta property="og:url" content="https://www.seek.ml/" key="ogurl" />
+<meta property="og:image" content="https://i.ibb.co/kKsgXkV/banner.png" key="ogimage" />
+<meta property="og:site_name" content="Seek's Portfolio" key="ogsitename" />
+<meta property="og:title" content="Seek / Java Developer / Designer" key="ogtitle" />
+<meta property="og:description" content="View Seek's latest resources and projects." key="ogdesc" />
       </Head>
       {animationComplete === false && <IntroOverlay />}
       <div className="after-animation">
