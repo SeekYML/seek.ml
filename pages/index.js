@@ -204,19 +204,17 @@ export default function Home() {
         ></meta>
         <title>Seek / Java Programmer / Designer</title>
         <link rel="icon" href="https://raw.githubusercontent.com/SeekYML/Assets/main/websiteassets/favicon.ico" />
+        <meta name="title" content="Seek / Java Developer / Designer"></meta>
+        <meta name="description" content="Portfolio / Resources"></meta>
 
-<title>Seek / Java Developer / Designer</title>
-<meta name="title" content="Seek / Java Developer / Designer"></meta>
-<meta name="description" content="Portfolio / Resources"></meta>
+        <meta name="twitter:card" content="summary" key="twcard" />
+        <meta name="twitter:creator" content="yo" key="twhandle" />
 
-<meta name="twitter:card" content="summary" key="twcard" />
-<meta name="twitter:creator" content="yo" key="twhandle" />
-
-<meta property="og:url" content="https://www.seek.ml/" key="ogurl" />
-<meta property="og:image" content="https://i.ibb.co/kKsgXkV/banner.png" key="ogimage" />
-<meta property="og:site_name" content="Seek's Portfolio" key="ogsitename" />
-<meta property="og:title" content="Seek / Java Developer / Designer" key="ogtitle" />
-<meta property="og:description" content="View Seek's latest resources and projects." key="ogdesc" />
+        <meta property="og:url" content="https://www.seek.ml/" key="ogurl" />
+        <meta property="og:image" content="https://i.ibb.co/FVL0J3m/banner.png" key="ogimage" />
+        <meta property="og:site_name" content="Seek's Portfolio" key="ogsitename" />
+        <meta property="og:title" content="Seek / Java Developer / Designer" key="ogtitle" />
+        <meta property="og:description" content="View Seek's latest resources and projects." key="ogdesc" />
       </Head>
       {animationComplete === false && <IntroOverlay />}
       <div className="after-animation">
