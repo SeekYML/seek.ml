@@ -209,17 +209,14 @@ export default function Home() {
 <meta name="title" content="Seek / Java Developer / Designer"></meta>
 <meta name="description" content="Portfolio / Resources"></meta>
 
-<meta property="og:type" content="website"></meta>
-<meta property="og:url" content="https://seek.ml/"></meta>
-<meta property="og:title" content="Seek / Java Developer / Designer"></meta>
-<meta property="og:description" content="Portfolio / Resources"></meta>
-<meta property="og:image" content="https://i.ibb.co/kKsgXkV/banner.png"></meta>
+<meta name="twitter:card" content="summary" key="twcard" />
+<meta name="twitter:creator" content={twitterHandle} key="twhandle" />
 
-<meta property="twitter:card" content="summary_large_image"></meta>
-<meta property="twitter:url" content="https://seek.ml/"></meta>
-<meta property="twitter:title" content="Seek / Java Developer / Designer"></meta>
-<meta property="twitter:description" content="Portfolio / Resources"></meta>
-<meta property="twitter:image" content="https://i.ibb.co/kKsgXkV/banner.png"></meta>
+<meta property="og:url" content={currentURL} key="ogurl" />
+<meta property="og:image" content={previewImage} key="ogimage" />
+<meta property="og:site_name" content={siteName} key="ogsitename" />
+<meta property="og:title" content={pageTitle} key="ogtitle" />
+<meta property="og:description" content={description} key="ogdesc" />
       </Head>
       {animationComplete === false && <IntroOverlay />}
       <div className="after-animation">
