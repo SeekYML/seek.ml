@@ -204,14 +204,22 @@ export default function Home() {
         ></meta>
         <title>Seek / Java Programmer / Designer</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:title" content={siteTitle} />
-        <meta name="og:description" content={siteDescription} />
-        <meta name="twitter:description" content={siteDescription} />
-        <meta property="og:image" content="/images/banner.png" />
-        <meta name="og:type" content="website" />
-        <meta property="twitter:image" content="/images/banner.png" />
-        <meta name="twitter:card" content="summary_large_image" />
+
+<title>Seek / Java Developer / Designer</title>
+<meta name="title" content="Seek / Java Developer / Designer"></meta>
+<meta name="description" content="Portfolio / Resources"></meta>
+
+<meta property="og:type" content="website"></meta>
+<meta property="og:url" content="https://seek.ml/"></meta>
+<meta property="og:title" content="Seek / Java Developer / Designer"></meta>
+<meta property="og:description" content="Portfolio / Resources"></meta>
+<meta property="og:image" content="https://i.ibb.co/kKsgXkV/banner.png"></meta>
+
+<meta property="twitter:card" content="summary_large_image"></meta>
+<meta property="twitter:url" content="https://seek.ml/"></meta>
+<meta property="twitter:title" content="Seek / Java Developer / Designer"></meta>
+<meta property="twitter:description" content="Portfolio / Resources"></meta>
+<meta property="twitter:image" content="https://i.ibb.co/kKsgXkV/banner.png"></meta>
       </Head>
       {animationComplete === false && <IntroOverlay />}
       <div className="after-animation">
