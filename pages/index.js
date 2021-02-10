@@ -227,7 +227,7 @@ export default function Home() {
             <ul className="nav-list">
               <li>
                 <motion.a
-                  href="https://discord.gg/PaHypdH7aA"
+                  href="https://discord.gg/"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}
@@ -344,7 +344,7 @@ export default function Home() {
           <ul className="footer-links">
             <li>
               <motion.a
-                href="https://discord.gg/PaHypdH7aA"
+                href="https://discord.gg/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
